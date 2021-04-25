@@ -24,9 +24,7 @@ class App extends React.Component
 
 	onSearch = (e) => {
 		const search = e.target.value;
-		this.setState({searchField : search}, () => {
-			console.log(this.state);
-		})
+		this.setState({searchField : search})
 	}
 
 	render()
